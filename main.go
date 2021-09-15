@@ -1,9 +1,13 @@
 package main
 
 import (
-	"fmt"
+	"net/http"
+
+	"github.com/colemalphrus/golp/controllers"
 )
 
 func main (){
-	fmt.Println("hellooo")
+	http.HandleFunc("/about", controllers.About)
+	http.HandleFunc("/", controllers.Homepage)
+	http.ListenAndServe(":8080", nil)
 }
