@@ -6,5 +6,6 @@ import (
 )
 
 func Homepage(w http.ResponseWriter, r *http.Request){
-	fmt.Fprintf(w, "Welcome to my website!")
+
+	fmt.Fprintf(w, "welcome home")
 }
