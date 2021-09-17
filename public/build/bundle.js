@@ -3788,9 +3788,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const app = new _svelte_hello_svelte__WEBPACK_IMPORTED_MODULE_0__["default"]({
-	target: document.body,
+	target: document.getElementById("aboutUsBody"),
 	props: {}
 });
+
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (app);
 })();
