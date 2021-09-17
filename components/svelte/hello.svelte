@@ -9,6 +9,9 @@
     <button on:click={() => count += 1}>ADD ONE</button>
     <button on:click={() => count -= 1}>Sub ONE</button>
     <button on:click={() => count = 0}>CLEAR</button>
+    <div>
+        <a href="/">back to home</a>
+    </div>
 </div>
 
 <style>

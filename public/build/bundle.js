@@ -1188,11 +1188,11 @@ __webpack_require__.r(__webpack_exports__);
 const file = "components\\svelte\\hello.svelte";
 
 function add_css(target) {
-	(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_styles)(target, "svelte-bn9iqr", "div.svelte-bn9iqr{background-color:cadetblue;text-align:center}button.svelte-bn9iqr{width:8rem;height:4rem;border-radius:10px}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaGVsbG8uc3ZlbHRlIiwic291cmNlcyI6WyJoZWxsby5zdmVsdGUiXSwic291cmNlc0NvbnRlbnQiOlsiPHNjcmlwdD5cclxuICAgIHZhciBncmVldGluZyA9IFwiVGhpcyBwYWdlIGlzIFN2ZWx0ZSBQb3dlcmVkXCJcclxuICAgICQ6IGNvdW50ID0gMFxyXG48L3NjcmlwdD5cclxuXHJcbjxkaXY+XHJcbiAgICA8aDE+e2dyZWV0aW5nfTwvaDE+XHJcbiAgICA8aDI+e2NvdW50fTwvaDI+XHJcbiAgICA8YnV0dG9uIG9uOmNsaWNrPXsoKSA9PiBjb3VudCArPSAxfT5BREQgT05FPC9idXR0b24+XHJcbiAgICA8YnV0dG9uIG9uOmNsaWNrPXsoKSA9PiBjb3VudCAtPSAxfT5TdWIgT05FPC9idXR0b24+XHJcbiAgICA8YnV0dG9uIG9uOmNsaWNrPXsoKSA9PiBjb3VudCA9IDB9PkNMRUFSPC9idXR0b24+XHJcbjwvZGl2PlxyXG5cclxuPHN0eWxlPlxyXG4gICAgZGl2IHtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBjYWRldGJsdWU7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgYnV0dG9uIHtcclxuICAgICAgICB3aWR0aDogOHJlbTtcclxuICAgICAgICBoZWlnaHQ6IDRyZW07XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuXHJcbiAgICB9XHJcbjwvc3R5bGU+Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWNJLEdBQUcsY0FBQyxDQUFDLEFBQ0QsZ0JBQWdCLENBQUUsU0FBUyxDQUMzQixVQUFVLENBQUUsTUFBTSxBQUN0QixDQUFDLEFBQ0QsTUFBTSxjQUFDLENBQUMsQUFDSixLQUFLLENBQUUsSUFBSSxDQUNYLE1BQU0sQ0FBRSxJQUFJLENBQ1osYUFBYSxDQUFFLElBQUksQUFFdkIsQ0FBQyJ9 */");
+	(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_styles)(target, "svelte-bn9iqr", "div.svelte-bn9iqr{background-color:cadetblue;text-align:center}button.svelte-bn9iqr{width:8rem;height:4rem;border-radius:10px}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaGVsbG8uc3ZlbHRlIiwic291cmNlcyI6WyJoZWxsby5zdmVsdGUiXSwic291cmNlc0NvbnRlbnQiOlsiPHNjcmlwdD5cclxuICAgIHZhciBncmVldGluZyA9IFwiVGhpcyBwYWdlIGlzIFN2ZWx0ZSBQb3dlcmVkXCJcclxuICAgICQ6IGNvdW50ID0gMFxyXG48L3NjcmlwdD5cclxuXHJcbjxkaXY+XHJcbiAgICA8aDE+e2dyZWV0aW5nfTwvaDE+XHJcbiAgICA8aDI+e2NvdW50fTwvaDI+XHJcbiAgICA8YnV0dG9uIG9uOmNsaWNrPXsoKSA9PiBjb3VudCArPSAxfT5BREQgT05FPC9idXR0b24+XHJcbiAgICA8YnV0dG9uIG9uOmNsaWNrPXsoKSA9PiBjb3VudCAtPSAxfT5TdWIgT05FPC9idXR0b24+XHJcbiAgICA8YnV0dG9uIG9uOmNsaWNrPXsoKSA9PiBjb3VudCA9IDB9PkNMRUFSPC9idXR0b24+XHJcbiAgICA8ZGl2PlxyXG4gICAgICAgIDxhIGhyZWY9XCIvXCI+YmFjayB0byBob21lPC9hPlxyXG4gICAgPC9kaXY+XHJcbjwvZGl2PlxyXG5cclxuPHN0eWxlPlxyXG4gICAgZGl2IHtcclxuICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiBjYWRldGJsdWU7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgYnV0dG9uIHtcclxuICAgICAgICB3aWR0aDogOHJlbTtcclxuICAgICAgICBoZWlnaHQ6IDRyZW07XHJcbiAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcclxuXHJcbiAgICB9XHJcbjwvc3R5bGU+Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlCSSxHQUFHLGNBQUMsQ0FBQyxBQUNELGdCQUFnQixDQUFFLFNBQVMsQ0FDM0IsVUFBVSxDQUFFLE1BQU0sQUFDdEIsQ0FBQyxBQUNELE1BQU0sY0FBQyxDQUFDLEFBQ0osS0FBSyxDQUFFLElBQUksQ0FDWCxNQUFNLENBQUUsSUFBSSxDQUNaLGFBQWEsQ0FBRSxJQUFJLEFBRXZCLENBQUMifQ== */");
 }
 
 function create_fragment(ctx) {
-	let div;
+	let div1;
 	let h1;
 	let t1;
 	let h2;
@@ -1203,12 +1203,15 @@ function create_fragment(ctx) {
 	let button1;
 	let t7;
 	let button2;
+	let t9;
+	let div0;
+	let a;
 	let mounted;
 	let dispose;
 
 	const block = {
 		c: function create() {
-			div = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
+			div1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
 			h1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("h1");
 			h1.textContent = `${/*greeting*/ ctx[1]}`;
 			t1 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
@@ -1223,6 +1226,10 @@ function create_fragment(ctx) {
 			t7 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
 			button2 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("button");
 			button2.textContent = "CLEAR";
+			t9 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.space)();
+			div0 = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("div");
+			a = (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.element)("a");
+			a.textContent = "back to home";
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(h1, file, 6, 4, 102);
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(h2, file, 7, 4, 127);
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr_dev)(button0, "class", "svelte-bn9iqr");
@@ -1231,24 +1238,31 @@ function create_fragment(ctx) {
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(button1, file, 9, 4, 207);
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr_dev)(button2, "class", "svelte-bn9iqr");
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(button2, file, 10, 4, 265);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr_dev)(div, "class", "svelte-bn9iqr");
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(div, file, 5, 0, 91);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr_dev)(a, "href", "/");
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(a, file, 12, 8, 335);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr_dev)(div0, "class", "svelte-bn9iqr");
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(div0, file, 11, 4, 320);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.attr_dev)(div1, "class", "svelte-bn9iqr");
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.add_location)(div1, file, 5, 0, 91);
 		},
 		l: function claim(nodes) {
 			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
 		},
 		m: function mount(target, anchor) {
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert_dev)(target, div, anchor);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div, h1);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div, t1);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div, h2);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.insert_dev)(target, div1, anchor);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div1, h1);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div1, t1);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div1, h2);
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(h2, t2);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div, t3);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div, button0);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div, t5);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div, button1);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div, t7);
-			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div, button2);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div1, t3);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div1, button0);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div1, t5);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div1, button1);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div1, t7);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div1, button2);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div1, t9);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div1, div0);
+			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.append_dev)(div0, a);
 
 			if (!mounted) {
 				dispose = [
@@ -1266,7 +1280,7 @@ function create_fragment(ctx) {
 		i: svelte_internal__WEBPACK_IMPORTED_MODULE_0__.noop,
 		o: svelte_internal__WEBPACK_IMPORTED_MODULE_0__.noop,
 		d: function destroy(detaching) {
-			if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach_dev)(div);
+			if (detaching) (0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.detach_dev)(div1);
 			mounted = false;
 			(0,svelte_internal__WEBPACK_IMPORTED_MODULE_0__.run_all)(dispose);
 		}
