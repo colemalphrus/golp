@@ -1,0 +1,1 @@
+document.getElementById("myDiv").style.color="red";
