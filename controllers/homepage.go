@@ -10,8 +10,13 @@ import (
 
 func Homepage(w http.ResponseWriter, r *http.Request){
 
+	data := map[string]string{
+		"title": "Golp",
+		"header": "Welcome to GoLP",
+	}
+
 	templateFile, _ := filepath.Abs("views/homepage.html.mustache")
-	view, _ := mustache.RenderFile(templateFile, map[string]string{"name": "cole malphrus"})
+	view, _ := mustache.RenderFile(templateFile, data)
 
 	fmt.Fprintf(w, view)
 } 

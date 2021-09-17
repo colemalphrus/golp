@@ -2,6 +2,9 @@ body {
     background-color: cadetblue;
     text-align: center;
 }
+div {
+    margin: 12rem;
+}
 h1 {
  text-decoration: underline;
 }
