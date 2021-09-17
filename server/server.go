@@ -17,6 +17,8 @@ func Serve(port string){
 			v.controller,
 		)
 	}
+	fs := http.FileServer(http.Dir("static/"))
+	r.PathPrefix("/static/").Handler(http.StripPrefix("/static/", fs))
 
 	http.ListenAndServe(port, r)
 }
