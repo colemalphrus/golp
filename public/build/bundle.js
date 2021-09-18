@@ -2,6 +2,29 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./app/components/js/hello.js":
+/*!************************************!*\
+  !*** ./app/components/js/hello.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _svelte_hello_svelte__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! .././svelte/hello.svelte */ "./app/components/svelte/hello.svelte");
+
+
+const app = new _svelte_hello_svelte__WEBPACK_IMPORTED_MODULE_0__["default"]({
+	target: document.getElementById("aboutUsBody"),
+	props: {}
+});
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (app);
+
+/***/ }),
+
 /***/ "./node_modules/svelte-hmr/runtime/hot-api.js":
 /*!****************************************************!*\
   !*** ./node_modules/svelte-hmr/runtime/hot-api.js ***!
@@ -3795,19 +3818,9 @@ var __webpack_exports__ = {};
   !*** ./app/components/main.js ***!
   \********************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _svelte_hello_svelte__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./svelte/hello.svelte */ "./app/components/svelte/hello.svelte");
+/* harmony import */ var _js_hello__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/hello */ "./app/components/js/hello.js");
 
 
-const app = new _svelte_hello_svelte__WEBPACK_IMPORTED_MODULE_0__["default"]({
-	target: document.getElementById("aboutUsBody"),
-	props: {}
-});
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (app);
 })();
 
 /******/ })()
