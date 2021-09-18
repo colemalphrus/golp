@@ -1,9 +1,9 @@
-package server
+package config
 
 import (
 	"net/http"
 
-	"github.com/colemalphrus/golp/controllers"
+	"github.com/colemalphrus/golp/app/controllers"
 )
 
 type controllerFunction func(http.ResponseWriter, *http.Request)

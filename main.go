@@ -3,9 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/colemalphrus/golp/server"
+	"github.com/colemalphrus/golp/config"
 )
-
 
 func main() {
 	fmt.Println("====================================")
@@ -14,5 +13,5 @@ func main() {
 	fmt.Println("====================================")
 	fmt.Println("====================================")
 	fmt.Print("CMD C to quit  >")
-	server.Serve(":8080")
+	config.Serve(":8080")
 }

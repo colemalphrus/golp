@@ -3,9 +3,9 @@ package controllers
 import (
 	"fmt"
 	"net/http"
-	"path/filepath"
 
 	"github.com/cbroglie/mustache"
+	"github.com/colemalphrus/golp/golp"
 )
 
 func Homepage(w http.ResponseWriter, r *http.Request){
@@ -15,7 +15,7 @@ func Homepage(w http.ResponseWriter, r *http.Request){
 		"header": "Welcome to GoLP",
 	}
 
-	templateFile, _ := filepath.Abs("views/homepage.html.mustache")
+	templateFile := golp.Template("app/views/", "homepage.html.mustache")
 	view, _ := mustache.RenderFile(templateFile, data)
 
 	fmt.Fprintf(w, view)
