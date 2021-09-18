@@ -7,16 +7,16 @@ Apps in Golp are modular components containing  Models, Views and Controlers.
 Apps also contain a components directory which renders the JS content and a Config package which contains app level configuration.
 
 ### Models
-#### TODO
+ TODO
 
 ### Views
-#### TODO
+ TODO
 
 ### Controllers
-#### TODO
+ TODO
 
 ### Components
-#### TODO
+ TODO
 
 ### Config
-#### TODO
+ TODO
