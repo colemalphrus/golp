@@ -6,7 +6,8 @@ const prod = mode === 'production';
 
 module.exports = {
   entry: {
-    'build/bundle': ['./app/components/main.js']
+    'build/app': ['./app/components/main.js'],
+    'build/app_svelte': ['./app_svelte/components/main.js']
   },
   resolve: {
     alias: {
